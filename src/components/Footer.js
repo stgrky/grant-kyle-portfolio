@@ -15,7 +15,7 @@ function Footer() {
                         <SocialFollow />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                    This site was made by Grant Kyle.
+                    This site was made by Grant Kyle
 
                     </Col>
                 </Row>
