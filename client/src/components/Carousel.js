@@ -21,7 +21,7 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: 'COVID Patient Database',
+                    title: 'COVID Patient Database Placeholder',
                     subTitle: 'Mock Doctor Portal',
                     imgSrc: c19pdb,
                     link: 'https://fast-wildwood-12677.herokuapp.com/#/',
@@ -29,7 +29,7 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'COVID Patient Database',
+                    title: 'COVID Patient Database Placeholder',
                     subTitle: 'Mock Doctor Portal',
                     imgSrc: c19pdb,
                     link: 'https://fast-wildwood-12677.herokuapp.com/#/',
