@@ -15,7 +15,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Mock COVID Patient Database',
-                    subTitle: 'Role: Front end/ UI',
+                    subTitle: 'Login: secureuser, Password: securepassword',
                     imgSrc: c19pdb,
                     repoLink: 'https://github.com/grantkyle/Project_2',
                     appLink: 'https://fast-wildwood-12677.herokuapp.com/#/',
