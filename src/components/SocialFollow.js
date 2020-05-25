@@ -9,13 +9,13 @@ export default function SocialFollow() {
         
             <a 
             href='https://www.linkedin.com/in/grant-kyle-53298711a/'
-            className='linkedin social'
+            className='linkedin-social'
             >
             <FaLinkedin size="2rem" icon={FaLinkedin}/>
             </a>
             <a 
             href='https://github.com/grantkyle'
-            className='github social'
+            className='github-social'
             >
             <FaGithub size="2rem" icon={FaGithub}/>
             </a>

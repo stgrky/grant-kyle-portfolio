@@ -1,12 +1,14 @@
 .github-social {
     margin: 5px;
     color: black;
+    padding: 5px;
 
 }
 
 .linkedin-social {
     margin:5px;
-    color: darkblue
+    color: darkblue;
+    padding: 5px
 }
 
 

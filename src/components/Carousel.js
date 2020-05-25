@@ -24,7 +24,7 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: 'Github User Finder',
-                    subTitle: 'Role: All',
+                    subTitle: 'Role: The Whole Thing',
                     imgSrc: githubfinder,
                     repoLink: 'https://github.com/grantkyle/employee-directory',
                     appLink: 'https://githubfinder192837465.netlify.app',
