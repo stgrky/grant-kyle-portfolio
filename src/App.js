@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Emoji from './components/Emoji'
 import Nav from 'react-bootstrap/Nav'
 import './App.css';
 
@@ -23,9 +22,9 @@ class App extends React.Component {
         { title: 'Contact', path: "/contact" },
       ],
       home: {
-        title: 'Hi!',
-        subTitle: 'Please check out some of my projects below',
-        text: "I coded them from scratch"
+        title: 'Hi. My name is Grant.',
+        subTitle: 'Below are a few of my best projects',
+        text: "Please check them out and drop me a line if you'd like to speak with me!!!"
       },
       about: {
         title: 'About Me',
@@ -44,7 +43,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Grant</Navbar.Brand>
+            <Navbar.Brand>Grant Kyle</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
