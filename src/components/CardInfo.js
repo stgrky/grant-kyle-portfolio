@@ -7,8 +7,9 @@ function CardInfo(props) {
 
     return(
         <animated.div className="g-card-info" style={style}>
-            <p className="g-card-title"> {props.title}</p>
-            <p className="g-card-subtitle"> {props.subTitle}</p>
+            <p className="g-card-title" style={{fontWeight: "bold"}}> {props.title}</p>
+            <p className="g-card-title"> {props.subTitle}</p>
+            <p className="g-card-title"> {props.login}</p>
             <a href={props.repoLink} target="_blank" rel="noopener noreferrer">View Repo</a>
             <br/>
             <a href={props.appLink} target="_blank" rel="noopener noreferrer">View App</a>

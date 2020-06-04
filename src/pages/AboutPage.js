@@ -16,7 +16,7 @@ function AboutPage(props) {
                 As a junior developer, I am learning every day just how interconnected marketing and development are and how these roles could both be made more efficient if they interacted in a more interdependent manner. I am conversion-focused and am able to implement a marketing strategy with development-friendly tactics in mind and vice versa, I can develop with marketing-friendly tactics in mind. 
 
                 <h2>A bunch of random things I love working with</h2>
-                React, Node, SCSS, Redux, SQL, MongoDB, Jira, Postman, Heroku, Netlify, VS Code, Github, SEMrush, Ahrefs, Analytics, Search Console... and countless other things!
+                React, Vue, Node, Express, SASS, Redux, SQL, MongoDB, Jira, Postman, Heroku, Netlify, VS Code, Github, SEMrush, Ahrefs, Analytics, Search Console... and countless other things!
                 
 
 

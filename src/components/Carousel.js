@@ -4,7 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import c19pdb from '../assets/images/c19pdb.png';
-import githubfinder from '../assets/images/githubfinder.png'
+import githubfinder from '../assets/images/githubfinder.png';
+import jobless from '../assets/images/jobless.png'
 
 class Carousel extends React.Component {
 
@@ -15,7 +16,8 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Mock COVID Patient Database',
-                    subTitle: 'Login: secureuser, Password: securepassword',
+                    subTitle: 'Role: Front end and UI ',
+                    login: 'Login: secureuser, Password: securepassword',
                     imgSrc: c19pdb,
                     repoLink: 'https://github.com/grantkyle/Project_2',
                     appLink: 'https://fast-wildwood-12677.herokuapp.com/#/',
@@ -24,20 +26,20 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: 'Github User Finder',
-                    subTitle: 'Role: The Whole Thing',
+                    subTitle: 'Role: Frontend and Backend',
                     imgSrc: githubfinder,
                     repoLink: 'https://github.com/grantkyle/employee-directory',
                     appLink: 'https://githubfinder192837465.netlify.app',
                     selected: false
                 },
-                // {
-                //     id: 2,
-                //     title: 'COVID Patient Database Placeholder',
-                //     subTitle: 'Mock Doctor Portal',
-                //     imgSrc: c19pdb,
-                //     link: 'https://fast-wildwood-12677.herokuapp.com/#/',
-                //     selected: false
-                // },
+                {
+                    id: 2,
+                    title: 'Jobless App',
+                    subTitle: 'Role: Blog Front & Back-end',
+                    imgSrc: jobless,
+                    link: 'http://jobless2020.herokuapp.com/',
+                    selected: false
+                },
             ]
 
         }
