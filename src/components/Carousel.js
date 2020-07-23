@@ -16,7 +16,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Mock COVID Patient Database',
-                    subTitle: 'Role: Front end and UI ',
+                    subTitle: 'Role: Frontend and UI',
                     login: 'Login: secureuser, Password: securepassword',
                     imgSrc: c19pdb,
                     repoLink: 'https://github.com/grantkyle/Project_2',
@@ -35,9 +35,10 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title: 'Jobless App',
-                    subTitle: 'Role: Blog Front & Back-end',
+                    subTitle: 'Role: Blog Frontend & Backend',
                     imgSrc: jobless,
-                    link: 'http://jobless2020.herokuapp.com/',
+                    repoLink:'',
+                    appLink: 'http://jobless2020.herokuapp.com/',
                     selected: false
                 },
             ]

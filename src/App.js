@@ -10,21 +10,24 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
+import Logo from './components/Logo';
+import logo from './assets/images/logo.png';
+
 class App extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      title: "Grant Kyle",
+      imgSrc: logo,
       headerLinks: [
         { title: 'Home', path: "/" },
         { title: 'About', path: "/about" },
         { title: 'Contact', path: "/contact" },
       ],
       home: {
-        title: 'Hi. My name is Grant.',
-        subTitle: 'Below are a few of my best projects',
-        text: "Please check them out and drop me a line if you'd like to speak with me!!!"
+        title: 'Hi 👋',
+        subTitle: 'My name is Grant',
+        text: "Below are a few projects I am most proud of!"
       },
       about: {
         title: 'About Me',
@@ -43,7 +46,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
 
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Grant Kyle</Navbar.Brand>
+            <Logo title={this.state.imgSrc}>Grant Kyle</Logo>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">

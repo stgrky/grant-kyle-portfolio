@@ -11,8 +11,6 @@ function Card(props) {
                 { props.item.selected && <CardInfo title={props.item.title} subTitle={props.item.subTitle} login={props.item.login} repoLink={props.item.repoLink} appLink={props.item.appLink}/> }
             </div>
         );
-    
-
 }
 
 export default Card;
