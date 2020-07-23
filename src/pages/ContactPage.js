@@ -24,15 +24,17 @@ class ContactPage extends React.Component {
   handleFields = e => this.setState({ [e.target.name]: e.target.value });
   render() {
     return (
-      <div style={divWidth} className="my-container">
+      <div style={divWidth} className="gkp--contact-container">
         <h3 style={subHeaderStyle}>Contact</h3>
         <form onSubmit={this.handleForm}>
-
+          <label>Name</label>
           <input style={formStyle} placeholder="Full Name" htmlFor="name"
             type="text" id="name" name="name" onChange={this.handleFields} />
+            <label>Email Address</label>
           <input style={formStyle} placeholder="Email" htmlFor="email"
             type="email" id="email" name="email" onChange={this.handleFields} />
-          <textarea style={formStyle} placeholder="Your Message..." htmlFor="message"
+            <label>Message</label>
+          <textarea style={formStyle} placeholder="Drop a line here" htmlFor="message"
             ame="message" id="message" onChange={this.handleFields}></textarea>
           <button id='button' type="submit">Submit</button>
         </form>
