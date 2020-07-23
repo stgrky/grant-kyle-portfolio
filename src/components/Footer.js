@@ -15,7 +15,7 @@ function Footer() {
                         <SocialFollow />
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                    PS.. I am still on the job market 😃
+                    If you're reading this, I am still on the job market 😃
 
                     </Col>
                 </Row>
