@@ -14,7 +14,8 @@
     max-width: 80%;
     text-align: left;
     overflow: auto;
-    padding: 0 300px 0 300px;
+    padding: 0 50px 0 50px;
+    flex-direction: row;
 }
 
 .gkp-projects--title {
@@ -32,6 +33,12 @@
     color: #526d7a;
 }
 
+@media screen and (min-width: 992px) {
+    .row {
+        width: 100%;
+        float: left;
+    }
+}
 .gkp-projects--content-container-link {
     color: #526d7a;
     font-weight: 600;
