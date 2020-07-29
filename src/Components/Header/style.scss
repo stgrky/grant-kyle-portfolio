@@ -9,17 +9,6 @@
     color: #526d7a;
 }
 
-@media screen and (max-width: 600px) {
-  .gkp-header-items {
-    font-size: 45px;
-  padding: 30px;
-  padding-bottom: 80px;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 600;
-  }
-}
-
 .gkp-header {
   max-width: 100%;
 }
@@ -38,12 +27,24 @@
   font-size: 45px;
   flex-direction: row;
   display: inline-block;
-  // padding: 30px;
+  padding: 30px;
   padding-bottom: 80px;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
-  width: 50%;
+  width: 45%
+
+}
+
+@media screen and (max-width: 600px) {
+  .gkp-header-items a {
+    font-size: 45px;
+  padding: 30px;
+  padding-bottom: 80px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  }
 }
 
 .gkp-header {
