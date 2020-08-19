@@ -33,11 +33,10 @@
     color: #526d7a;
 }
 
-@media screen and (min-width: 992px) {
-    .row {
-        width: 100%;
-        float: left;
-    }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
 }
 .gkp-projects--content-container-link {
     color: #526d7a;
@@ -49,10 +48,51 @@
     text-decoration: none
 }
 
-.gkp-projects--social-links-gif {
-    // width: 33%;
+.sk-home__general-info-title {
+    text-align: center;
 }
 
-.gkp-projects--social-links-gif-text {
+.sk-home__general-info-container {
+    border: none;
+    padding: 20px 40px 40px;
     width: 100%;
+    display: flex;
+}
+
+.sk-home__general-info-container__text {
+    flex: 1 1 auto;
+}
+
+.sk-home__who-do-i-help-container__text {
+    flex: 1 1 auto;
+}
+
+.gkp-projects--social-links-tab-gif {
+    margin: 20px 30px 0 150px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.gkp-projects--social-links-card-gif {
+    margin: 20px 30px 0 150px;
+    object-fit: contain;
+    align-self: flex-start;
+    float: right;
+}
+
+.sk-home__who-do-i-help-container-image {
+    margin: 40px 150px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.sk-home__who-do-i-help-title {
+    text-align: center;
+}
+
+.sk-home__who-do-i-help-container {
+    border: none;
+    padding: 20px 40px 40px;
+    width: 100%;
+    display: flex;
 }
