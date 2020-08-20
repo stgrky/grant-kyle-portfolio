@@ -12,7 +12,7 @@ const Projects = () => {
       <Header />
       <div className="gkp-projects--projects-container">
         <header className="row text-left gkp-projects--title">
-          <h1 className="gkp-projects--title">Projects</h1>
+          <h1 className="gkp-projects--title">Projects and Features</h1>
         </header>
         <section className="row gkp-projects--body">
           <div className="col-md-12 text-justify gkp-projects--content-container">
@@ -163,7 +163,7 @@ const Projects = () => {
             <div className="sk-home__general-info-container">
               <div className="sk-home__general-info-container__text">
                 <p>
-                This card displays all of the different classes that a given company belongs to. Initially, it only displayed the first class listed in the companyId's array. I used Handlebars to ensure that each class is displayed uniformly on the card. 
+                This card displays all of the different classes that a given company belongs to on the sidebar of their profile page. Initially, it only displayed the first class listed in the company's array. I used Handlebars to ensure that each class is displayed on the card.
                 </p>
                 
               </div>
