@@ -72,7 +72,7 @@ const Projects = () => {
                   >
                     Junior Developer at Paperstreet.vc
                   </a>
-                  : What exactly have I been doing with my time as a Junior Developer at Paperstreet? I have been immersed in the world of React, creating pixel-perfect frontend features from mockups and functional backend features. Our stack is React, Handlebars, Webpack, Express, Node and PostgresQL. Below are some of the features I have been charged with completing.
+                  : What exactly have I been doing with my time as a Junior Developer at Paperstreet? I have been immersed in the world of React, creating pixel-perfect frontend features from mockups and smooth backend features. Our stack is React, Handlebars, Webpack, Express, Node and PostgresQL. Below are some of the features I have been charged with completing.
                 </p>
               </li>
             </ul>
@@ -107,6 +107,41 @@ const Projects = () => {
         </Row>
         <Row>
           <Col sm="12" md={{ size: 8, offset: -2 }}>
+            <h2 className="sk-home__who-do-i-help-title">Visibility Options Modal</h2>
+            <div className="sk-home__who-do-i-help-container">
+              <img
+                className="sk-home__who-do-i-help-container-image"
+                src="../assets/gifs/post-visibility-options-modal-gif.gif"
+                alt="secondImage"
+              ></img>
+              <div className="sk-home__who-do-i-help-container__text">
+                <p>
+                  This modal controls who is able to see a given post when a user wants to post an update to their profile page. It uses props to open the modal, multiple instances of embedded useState Hooks to conditionally render the difference in options, and the useEffect Hook to send only to certain email contacts. 
+                </p>
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={{ size: 8, order: 2, offset: 2 }}>
+            <h2 className="sk-home__general-info-title">Shimmer on Page Load</h2> 
+            <div className="sk-home__general-info-container">
+              <div className="sk-home__general-info-container__text">
+                <p>
+                This uses a shimmer NPM to display a beautiful placeholder that displays a shiny shell of the card shape until the page loads, which involved creating a shimmer component for this card and a lot of CSS. Before this feature was completed, the page stayed blank on refresh until a grid of cards loaded. 
+                </p>
+                
+              </div>
+              <img
+                className="gkp-projects--social-links-tab-gif"
+                src="../assets/gifs/company-card-shimmer-gif.gif"
+                alt="firstImage"
+              ></img>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm="12" md={{ size: 8, offset: -2 }}>
             <h2 className="sk-home__who-do-i-help-title">Composer Editor Dropdown Menu</h2>
             <div className="sk-home__who-do-i-help-container">
               <img
@@ -116,54 +151,30 @@ const Projects = () => {
               ></img>
               <div className="sk-home__who-do-i-help-container__text">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Temporibus dolorum possimus ad quisquam est iusto aperiam sint
-                  error aliquam officia veritatis quidem, ipsam nostrum rerum
-                  itaque eum vero voluptatibus. Ut! Lorem, ipsum dolor sit amet
-                  consectetur adipisicing elit. Voluptas voluptatum atque odit
-                  fuga, consequuntur fugit eum quibusdam quo facilis
-                  voluptatibus delectus quidem tempora a similique adipisci
-                  dolore, sapiente doloremque vitae? Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Sapiente delectus dolorem
-                  aperiam, corporis doloremque, autem tenetur illum, quos
-                  dolorum hic tempora sed cupiditate beatae qui esse expedita
-                  odit quia sunt! Lorem ipsum dolor, sit amet consectetur
-                  adipisicing elit. Dolores dignissimos, ducimus laboriosam
-                  natus eos mollitia sint cumque excepturi sunt eveniet, tempore
-                  ex quis facere illum ad alias minus quaerat beatae?
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officia molestiae, beatae qui doloremque quis itaque error
-                  quisquam cumque animi nihil vitae, fugiat neque quos ut, nobis
-                  a ratione harum. Neque! Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Adipisci repellat libero, odio
-                  cupiditate iste quisquam ut ipsa aliquam non velit quasi
-                  dolores rem in maxime corrupti, totam illo minima? Porro?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis, quidem similique inventore error dolorem sint sit
-                  illum molestias dicta voluptatum aut rerum fugiat hic? Quas
-                  ipsa aliquid fugiat optio vero?
+                  This is a dropdown menu on Paperstreet's status update editor that gives the user options for the next update they are going to write. For this feature, I took a dropdown that was previously built using Handlebars and transcribed it into a functional React component from scratch.
                 </p>
               </div>
             </div>
           </Col>
         </Row>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <Row>
+          <Col sm={{ size: 8, order: 2, offset: 2 }}>
+            <h2 className="sk-home__general-info-title">Display All Classes a Company Belongs To</h2> 
+            <div className="sk-home__general-info-container">
+              <div className="sk-home__general-info-container__text">
+                <p>
+                This card displays all of the different classes that a given company belongs to. Initially, it only displayed the first class listed in the companyId's array. I used Handlebars to ensure that each class is displayed uniformly on the card. 
+                </p>
+                
+              </div>
+              <img
+                className="gkp-projects--social-links-tab-gif"
+                src="../assets/gifs/display-classes-on-card-gif.gif"
+                alt="firstImage"
+              ></img>
+            </div>
+          </Col>
+        </Row>
           
         </section>
       </div>
@@ -172,63 +183,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-{/* <Container >
-            <Row className="poopee">
-              <Col className="poop" xs={6} lg={4}>
-                <Card style={{ width: "25rem" }}>
-                  <div className="gkp-projects--image-container">
-                    <Card.Img
-                      className="gkp-projects--social-links-gif"
-                      variant="top"
-                      src="../assets/gifs/social-link-gif.gif"
-                    />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col className="poop" xs={6} lg={4}>
-                <Card style={{ width: "25rem" }}>
-                  <div className="gkp-projects--image-container">
-                    <Card.Img
-                      className="gkp-projects--social-links-gif"
-                      variant="top"
-                      src="../assets/gifs/social-link-gif.gif"
-                    />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-              <Col className="poop" xs={6} lg={4}>
-                <Card style={{ width: "25rem" }}>
-                  <div className="gkp-projects--image-container">
-                    <Card.Img
-                      className="gkp-projects--social-links-gif"
-                      variant="top"
-                      src="../assets/gifs/social-link-gif.gif"
-                    />
-                  </div>
-                  <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
-          </Container> */}
