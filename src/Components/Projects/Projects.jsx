@@ -3,6 +3,8 @@ import Header from "../Header";
 import "./style.scss";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
 
 const Projects = () => {
   return (
@@ -15,7 +17,7 @@ const Projects = () => {
         <section className="row gkp-projects--body">
           <div className="col-md-12 text-justify gkp-projects--content-container">
             <ul>
-              <li>
+              {/* <li>
                 <p>
                   <a
                     className="gkp-projects--content-container-link"
@@ -32,7 +34,7 @@ const Projects = () => {
                   on Atlas. We use React on the frontend and it is deployed on
                   Heroku.
                 </p>
-              </li>
+              </li> */}
               {/* <li>
                 <p>
                   <a
@@ -71,8 +73,7 @@ const Projects = () => {
                   >
                     Junior Developer at Paperstreet.vc
                   </a>
-                  : What exactly have I been doing with my time as a Junior
-                  Developer at Paperstreet? I work as a full stack developer on
+                  : I work as a full stack developer on
                   a small, highly-agile, early-stage startup software
                   development team. To date, I have implemented around a dozen
                   minor to medium-sized experiences for Paperstreet's
