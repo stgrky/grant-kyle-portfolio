@@ -73,146 +73,126 @@ const Projects = () => {
                   >
                     Junior Developer at Paperstreet.vc
                   </a>
-                  : I work as a full stack developer on
-                  a small, highly-agile, early-stage startup software
-                  development team. To date, I have implemented around a dozen
-                  minor to medium-sized experiences for Paperstreet's
-                  production-level web application, servicing thousands of users
-                  and hundreds of companies. I primarily work with the front end
-                  but am able to work in the back end as needed to implement or
-                  utilize APIs for rich, front end functionality. Below are some
-                  of the features I have been charged with completing.
+                  : I work as a full stack developer on a small, highly-agile,
+                  early-stage startup software development team. I implement
+                  small to medium-sized experiences that are featured on
+                  Paperstreet's production-level web application, servicing
+                  thousands of users and hundreds of companies - and those
+                  numbers grow daily. I primarily work with the front end but am
+                  able to work in the back end as needed to implement or utilize
+                  APIs for rich, front end functionality. Below are some of the
+                  features I have been charged with completing.
                 </p>
               </li>
             </ul>
           </div>
         </section>
         <section className="row gkp-projects--gifs">
-          <Row>
-            <Col sm={{ size: 8, order: 2, offset: 2 }}>
-              <h2 className="sk-home__general-info-title">
-                User Profile Social Links
-              </h2>
-              <div className="sk-home__general-info-container">
-                <div className="sk-home__general-info-container__text">
-                  <p>
-                    This social link tab lets the user input links to their
-                    social media channels. I was in charge of the frontend,
-                    using React, Bootstrap, SVG logos and RegEx to validate
-                    whether or not the social link was a valid URL. Handlebars
-                    is used to conditionally render the social media SVGs on a
-                    card on the user's profile page; only social media channels
-                    listed in their user settings will display here. If no
-                    social media has been input, the card will disappear.
-                    <img
-                      className="gkp-projects--social-links-card-gif"
-                      src="../assets/gifs/social-link-card-gif.gif"
-                      alt="firstImage"
-                    ></img>
-                  </p>
-                </div>
+          <h2 className="sk-home__general-info-title">
+            User Profile Social Links
+          </h2>
+          <div className="sk-home__general-info-container">
+            <div className="sk-home__general-info-container__text">
+              <p>
+                This social link tab lets the user input links to their social
+                media channels. I was in charge of the frontend, using React,
+                Bootstrap, SVG logos and RegEx to validate whether or not the
+                social link was a valid URL. Handlebars is used to conditionally
+                render the social media SVGs on a card on the user's profile
+                page; only social media channels listed in their user settings
+                will display here. If no social media has been input, the card
+                will disappear.
                 <img
-                  className="gkp-projects--social-links-tab-gif"
-                  src="../assets/gifs/social-link-gif.gif"
+                  className="gkp-projects--social-links-card-gif"
+                  src="../assets/gifs/social-link-card-gif.gif"
                   alt="firstImage"
                 ></img>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm="12" md={{ size: 8, offset: -2 }}>
-              <h2 className="sk-home__who-do-i-help-title">
-                Visibility Options Modal
-              </h2>
-              <div className="sk-home__who-do-i-help-container">
-                <img
-                  className="sk-home__who-do-i-help-container-image"
-                  src="../assets/gifs/post-visibility-options-modal-gif.gif"
-                  alt="secondImage"
-                ></img>
-                <div className="sk-home__who-do-i-help-container__text">
-                  <p>
-                    This modal controls who is able to see a given post when a
-                    user wants to post an update to their profile page. It uses
-                    props to open the modal, multiple instances of embedded
-                    useState Hooks to conditionally render the difference in
-                    options, and the useEffect Hook to send only to certain
-                    email contacts.
-                  </p>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={{ size: 8, order: 2, offset: 2 }}>
-              <h2 className="sk-home__general-info-title">
-                Shimmer on Page Load
-              </h2>
-              <div className="sk-home__general-info-container">
-                <div className="sk-home__general-info-container__text">
-                  <p>
-                    This uses a shimmer NPM to display a beautiful placeholder
-                    that displays a shiny shell of the card shape until the page
-                    loads, which involved creating a shimmer component for this
-                    card and a lot of CSS. Before this feature was completed,
-                    the page stayed blank on refresh until a grid of cards
-                    loaded.
-                  </p>
-                </div>
-                <img
-                  className="gkp-projects--social-links-tab-gif"
-                  src="../assets/gifs/company-card-shimmer-gif.gif"
-                  alt="firstImage"
-                ></img>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm="12" md={{ size: 8, offset: -2 }}>
-              <h2 className="sk-home__who-do-i-help-title">
-                Composer Editor Dropdown Menu
-              </h2>
-              <div className="sk-home__who-do-i-help-container">
-                <img
-                  className="sk-home__who-do-i-help-container-image"
-                  src="../assets/gifs/composer-editor-dropdown-gif.gif"
-                  alt="secondImage"
-                ></img>
-                <div className="sk-home__who-do-i-help-container__text">
-                  <p>
-                    This is a dropdown menu on Paperstreet's status update
-                    editor that gives the user options for the next update they
-                    are going to write. For this feature, I took a dropdown that
-                    was previously built using Handlebars and transcribed it
-                    into a functional React component from scratch.
-                  </p>
-                </div>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={{ size: 8, order: 2, offset: 2 }}>
-              <h2 className="sk-home__general-info-title">
-                Display All Classes a Company Belongs To
-              </h2>
-              <div className="sk-home__general-info-container">
-                <div className="sk-home__general-info-container__text">
-                  <p>
-                    This card displays all of the different classes that a given
-                    company belongs to on the sidebar of their profile page.
-                    Initially, it only displayed the first class listed in the
-                    company's array. I used Handlebars to ensure that each class
-                    is displayed on the card.
-                  </p>
-                </div>
-                <img
-                  className="gkp-projects--social-links-tab-gif"
-                  src="../assets/gifs/display-classes-on-card-gif.gif"
-                  alt="firstImage"
-                ></img>
-              </div>
-            </Col>
-          </Row>
+              </p>
+            </div>
+            <img
+              className="gkp-projects--social-links-tab-gif"
+              src="../assets/gifs/social-link-gif.gif"
+              alt="firstImage"
+            ></img>
+          </div>
+
+          <h2 className="sk-home__who-do-i-help-title">
+            Visibility Options Modal
+          </h2>
+          <div className="sk-home__who-do-i-help-container">
+            <img
+              className="sk-home__who-do-i-help-container-image"
+              src="../assets/gifs/post-visibility-options-modal-gif.gif"
+              alt="secondImage"
+            ></img>
+            <div className="sk-home__who-do-i-help-container__text">
+              <p>
+                This modal controls who is able to see a given post when a user
+                wants to post an update to their profile page. It uses props to
+                open the modal, multiple instances of embedded useState Hooks to
+                conditionally render the difference in options, and the
+                useEffect Hook to send only to certain email contacts.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="sk-home__general-info-title">Shimmer on Page Load</h2>
+          <div className="sk-home__general-info-container">
+            <div className="sk-home__general-info-container__text">
+              <p>
+                This uses a shimmer NPM to display a beautiful placeholder that
+                displays a shiny shell of the card shape until the page loads,
+                which involved creating a shimmer component for this card and a
+                lot of CSS. Before this feature was completed, the page stayed
+                blank on refresh until a grid of cards loaded.
+              </p>
+            </div>
+            <img
+              className="gkp-projects--social-links-tab-gif"
+              src="../assets/gifs/company-card-shimmer-gif.gif"
+              alt="firstImage"
+            ></img>
+          </div>
+
+          <h2 className="sk-home__who-do-i-help-title">
+            Composer Editor Dropdown Menu
+          </h2>
+          <div className="sk-home__who-do-i-help-container">
+            <img
+              className="sk-home__who-do-i-help-container-image"
+              src="../assets/gifs/composer-editor-dropdown-gif.gif"
+              alt="secondImage"
+            ></img>
+            <div className="sk-home__who-do-i-help-container__text">
+              <p>
+                This is a dropdown menu on Paperstreet's status update editor
+                that gives the user options for the next update they are going
+                to write. For this feature, I took a dropdown that was
+                previously built using Handlebars and transcribed it into a
+                functional React component from scratch.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="sk-home__general-info-title">
+            Display All Classes a Company Belongs To
+          </h2>
+          <div className="sk-home__general-info-container">
+            <div className="sk-home__general-info-container__text">
+              <p>
+                This card displays all of the different classes that a given
+                company belongs to on the sidebar of their profile page.
+                Initially, it only displayed the first class listed in the
+                company's array. I used Handlebars to ensure that each class is
+                displayed on the card.
+              </p>
+            </div>
+            <img
+              className="gkp-projects--social-links-tab-gif"
+              src="../assets/gifs/display-classes-on-card-gif.gif"
+              alt="firstImage"
+            ></img>
+          </div>
         </section>
       </div>
     </div>
