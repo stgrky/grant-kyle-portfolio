@@ -9,7 +9,6 @@ import Card from "react-bootstrap/Card";
 const Projects = () => {
   return (
     <div className="gkp-projects--container">
-      <Header />
       <div className="gkp-projects--projects-container">
         <header className="row text-left gkp-projects--title">
           <h1 className="gkp-projects--title">Projects and Features</h1>

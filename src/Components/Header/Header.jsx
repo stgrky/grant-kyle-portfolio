@@ -1,23 +1,71 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+
 import "./style.scss";
 
 const Header = (props) => {
   return (
-    <div className="row gkp-header">
-      <Navbar bg="light" expand="lg">
-        <div className="col-sm-6 gkp-header-items gkp-header--projects">
-          <Navbar.Brand className="gkp-header--text" href="/">Home</Navbar.Brand>
-        </div>
-        <div className="col-sm-6 gkp-header-items gkp-header--about">
-          <Nav.Link className="gkp-header--text" href="/projects">Projects</Nav.Link>
-        </div>
-        {/* <div className="col-sm-3 gkp-header-items gkp-header--contact">
-          <Nav.Link className="gkp-header--text" href="/blog">Blog</Nav.Link>
-        </div> */}
-      </Navbar>
-    </div>
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className="gkp-header__menu-items gkp-header--projects"
+    >
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+          <div className="gkp-header__menu-items gkp-header--projects">
+            <Nav.Link href="/">Projects</Nav.Link>
+          </div>
+          <div className="gkp-header__menu-items gkp-header--projects">
+            <Nav.Link href="/about">About</Nav.Link>
+          </div>
+        </Nav>
+      </Navbar.Collapse>
+      <Navbar.Brand href="#home">
+        <section
+          id="gkp-homebody--social-section"
+          className="row text-center social"
+        >
+          <a
+            href="https://github.com/grantkyle"
+            aria-label="Github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              alt=""
+              className="gkp-header__social-logo"
+              href="https://github.com/grantkyle"
+              src="../assets/icons/github-logo.svg"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/grant-kyle-53298711a/"
+            aria-label="Linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              alt=""
+              className="gkp-header__social-logo"
+              src="../assets/icons/linkedin-logo.svg"
+            />
+          </a>
+          <a
+            href="mailto:sgrantkyle@gmail.com"
+            aria-label="Email"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              alt=""
+              className="gkp-header__social-logo"
+              src="../assets/icons/gmail-logo.svg"
+            />
+          </a>
+        </section>
+      </Navbar.Brand>
+    </Navbar>
   );
 };
 

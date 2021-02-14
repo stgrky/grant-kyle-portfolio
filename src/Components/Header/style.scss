@@ -1,51 +1,14 @@
-.gkp-header--text {
-    text-decoration: none;
-    display: inline-block;
-    color: 	(0,0,139);
-    &:hover {
-        text-decoration: none;
-        cursor: pointer;
-    }
-    color: #526d7a;
-}
 
-.gkp-header {
-  max-width: 100%;
-}
 
-.gkp-header--projects {
-
-}
-
-.gkp-header--about {
-}
-
-.gkp-header--contact {
-}
-
-.gkp-header-items {
-  font-size: 45px;
-  flex-direction: row;
-  display: inline-block;
+.gkp-header__menu-items {
+  font-size: 36px;
   padding: 30px;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
-  width: 45%
-
 }
 
-@media screen and (max-width: 600px) {
-  .gkp-header-items a {
-    font-size: 45px;
-  padding: 10px;
-  padding-bottom: 10px;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 600;
-  }
-}
-
-.gkp-header {
-  text-align: center;
+.gkp-header__social-logo {
+  margin-left:5px;
+  margin-right:5px;
 }
