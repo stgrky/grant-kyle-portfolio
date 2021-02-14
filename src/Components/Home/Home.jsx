@@ -1,5 +1,4 @@
 import React from 'react';
-import HomeBody from '../HomeBody';
 import "./style.scss"
 
 
