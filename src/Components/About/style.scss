@@ -4,53 +4,53 @@ body {
     width: auto;
 }
 
-.gkp-homebody--container {
+.gkp-home__container {
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.gkp-homebody--profile-pic-container {
+.gkp-home__profile-pic-container {
     display: inline-block;
 }
 
-.gkp-homebody--profile-pic {
+.gkp-home__profile-pic {
     width: 250px;
     height: 250px;
 }
 
-.gkp-homebody--name {
+.gkp-home__name {
     font-size: 48px;
     font-weight: 500;
     color: #444
 
 }
 
-.gkp-homebody--title {
+.gkp-home__title {
     color: #526d7a;
     font-size: 30px;
     font-weight: 400;
 }
 
-.gkp-homebody--social-icons {
+.gkp-home__social-icons {
     display: inline-block;
     margin: 10px;
 }
 
-#gkp-homebody--github__hover {
+#gkp-home__github__hover {
     display: inline-block;
 &:hover {
     color: #000000;
 }
 }
 
-#gkp-homebody--linkedin__hover {
+#gkp-home__linkedin__hover {
     display: inline-block;
     &:hover {
         fill: #0000FF;
     }
 }
 
-#gkp-homebody--gmail__hover {
+#gkp-home__gmail__hover {
     display: inline-block;
 fill: #FF0000;
 }

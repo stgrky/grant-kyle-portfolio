@@ -1,95 +1,65 @@
-.gkp-projects--container {
-   display: flex;
+.gkp-projects__container {
+  display: flex;
 }
 
-.gkp-projects--title {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 48px;
-    font-weight: 500;
-    color: #444
+.gkp-projects__title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #444;
 }
 
-.gkp-projects--title-container {
-    margin: 0 50px;
-
+.gkp-projects__title-container {
+  margin: 0 50px;
 }
 
-.gkp-projects--projects-container {
-    max-width: 100%;
-    text-align: left;
-  
-    padding: 0 50px 0 50px;
+.gkp-projects__projects-container {
+  max-width: 100%;
+  text-align: left;
+
+  padding: 0 50px 0 50px;
 }
 
-.gkp-projects--title {
-    color: #555;
+.gkp-projects__title {
+  color: #555;
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
+.gkp-projects__content-container {
+  font-size: 22px;
+  font-weight: 300;
+  color: #526d7a;
 }
 
-.gkp-projects--content-container {
-    font-size: 22px;
-    font-weight: 300;
-    color: #526d7a;
+.gkp-projects__content-container-link {
+  color: #526d7a;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.gkp-projects--content-container-link {
-    color: #526d7a;
-    font-weight: 600;
-    text-decoration: none
+.gkp-projects__content-container-link:visited {
+  text-decoration: none;
 }
 
-.gkp-projects--content-container-link:visited {
-    text-decoration: none
+.gkp-projects__project-container {
+  // border: none;
+  // padding: 20px 40px 40px;
+  // width: 100%;
+  display: flex;
 }
 
-.sk-home__general-info-title {
-    text-align: center;
+.gkp-projects__gif-container {
+  width: 40%;
+  margin: 20px 30px 0 50px;
 }
 
-.sk-home__general-info-container {
-    border: none;
-    padding: 20px 40px 40px;
-    width: 100%;
+
+
+.gkp-projects__project-title {
+  text-align: center;
 }
 
-.sk-home__general-info-container__text {
-   
-}
-
-.sk-home__who-do-i-help-container__text {
-   
-}
-
-.gkp-projects--social-links-tab-gif {
-    margin: 20px 30px 0 50px;
-    
-   
-}
-
-.gkp-projects--social-links-card-gif {
-    margin: 20px 30px 0 150px;
-
-
-    float: right;
-}
-
-.sk-home__who-do-i-help-container-image {
-    margin: 20px 50px 0 0;
-
-    
-}
-
-.sk-home__who-do-i-help-title {
-    text-align: center;
-}
-
-.sk-home__who-do-i-help-container {
-    border: none;
-    padding: 20px 40px 40px;
-    width: 100%;
-
+.gkp-projects__project-container {
+  border: none;
+  padding: 20px 40px 40px;
+  width: 100%;
 }

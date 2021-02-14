@@ -22,10 +22,7 @@ const Header = (props) => {
         </Nav>
       </Navbar.Collapse>
       <Navbar.Brand href="#home">
-        <section
-          id="gkp-homebody--social-section"
-          className="row text-center social"
-        >
+        <div id="gkp-header__social-section" className="row text-center social">
           <a
             href="https://github.com/grantkyle"
             aria-label="Github"
@@ -63,7 +60,7 @@ const Header = (props) => {
               src="../assets/icons/gmail-logo.svg"
             />
           </a>
-        </section>
+        </div>
       </Navbar.Brand>
     </Navbar>
   );

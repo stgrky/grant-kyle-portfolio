@@ -8,18 +8,18 @@ import Card from "react-bootstrap/Card";
 
 const Projects = () => {
   return (
-    <div className="gkp-projects--container">
-      <div className="gkp-projects--projects-container">
-        <header className="row text-left gkp-projects--title">
-          <h1 className="gkp-projects--title">Projects and Features</h1>
+    <div className="gkp-projects__container">
+      <div className="gkp-projects__projects-container">
+        <header className="row text-left gkp-projects__title">
+          <h1 className="gkp-projects__title">Projects and Features</h1>
         </header>
-        <section className="row gkp-projects--body">
-          <div className="col-md-12 text-justify gkp-projects--content-container">
+        <div className="row gkp-projects__body">
+          <div className="col-md-12 text-justify gkp-projects__content-container">
             <ul>
               {/* <li>
                 <p>
                   <a
-                    className="gkp-projects--content-container-link"
+                    className="gkp-projects__content-container-link"
                     href="http://jobless2020.herokuapp.com/"
                   >
                     Jobless.com
@@ -37,7 +37,7 @@ const Projects = () => {
               {/* <li>
                 <p>
                   <a
-                    className="gkp-projects--content-container-link"
+                    className="gkp-projects__content-container-link"
                     href="https://fast-wildwood-12677.herokuapp.com/"
                   >
                     COVID-19 Patient Database (Mock)
@@ -51,7 +51,7 @@ const Projects = () => {
               <li>
                 <p>
                   <a
-                    className="gkp-projects--content-container-link"
+                    className="gkp-projects__content-container-link"
                     href="https://githubfinder192837465.netlify.app/"
                   >
                     Github User Finder
@@ -67,12 +67,12 @@ const Projects = () => {
               <li>
                 <p>
                   <a
-                    className="gkp-projects--content-container-link"
+                    className="gkp-projects__content-container-link"
                     href="https://paperstreet.vc/"
                   >
                     Junior Developer at Paperstreet.vc
                   </a>
-                  : I work as a full stack developer on a small, highly-agile,
+                  : I am a full stack developer on a small, highly-agile
                   early-stage startup software development team. I implement
                   small to medium-sized experiences that are featured on
                   Paperstreet's production-level web application, servicing
@@ -85,13 +85,13 @@ const Projects = () => {
               </li>
             </ul>
           </div>
-        </section>
-        <section className="row gkp-projects--gifs">
-          <h2 className="sk-home__general-info-title">
+        </div>
+        <div className="row gkp-projects__gifs">
+          <h2 className="gkp-projects__project-title">
             User Profile Social Links
           </h2>
-          <div className="sk-home__general-info-container">
-            <div className="sk-home__general-info-container__text">
+          <div className="gkp-projects__project-container">
+            <div className="gkp-projects__project-text">
               <p>
                 This social link tab lets the user input links to their social
                 media channels. I was in charge of the frontend, using React,
@@ -101,30 +101,33 @@ const Projects = () => {
                 page; only social media channels listed in their user settings
                 will display here. If no social media has been input, the card
                 will disappear.
-                <img
-                  className="gkp-projects--social-links-card-gif"
-                  src="../assets/gifs/social-link-card-gif.gif"
-                  alt="firstImage"
-                ></img>
               </p>
             </div>
-            <img
-              className="gkp-projects--social-links-tab-gif"
-              src="../assets/gifs/social-link-gif.gif"
-              alt="firstImage"
-            ></img>
+            <div className="gkp-projects__gif-container">
+              <img
+                className="gkp-projects__social-links-card-gif"
+                src="../assets/gifs/social-link-card-gif.gif"
+                alt="firstImage"
+              ></img>
+              <img
+                className="gkp-projects__social-links-tab-gif"
+                src="../assets/gifs/social-link-gif.gif"
+                alt="firstImage"
+              ></img>
+            </div>
           </div>
 
-          <h2 className="sk-home__who-do-i-help-title">
+          <h2 className="gkp-projects__project-title">
             Visibility Options Modal
           </h2>
-          <div className="sk-home__who-do-i-help-container">
-            <img
-              className="sk-home__who-do-i-help-container-image"
-              src="../assets/gifs/post-visibility-options-modal-gif.gif"
-              alt="secondImage"
-            ></img>
-            <div className="sk-home__who-do-i-help-container__text">
+          <div className="gkp-projects__project-container">
+            <div className="gkp-projects__gif-container">
+              <img
+                src="../assets/gifs/post-visibility-options-modal-gif.gif"
+                alt="secondImage"
+              ></img>
+            </div>
+            <div className="gkp-projects__project-text">
               <p>
                 This modal controls who is able to see a given post when a user
                 wants to post an update to their profile page. It uses props to
@@ -135,9 +138,9 @@ const Projects = () => {
             </div>
           </div>
 
-          <h2 className="sk-home__general-info-title">Shimmer on Page Load</h2>
-          <div className="sk-home__general-info-container">
-            <div className="sk-home__general-info-container__text">
+          <h2 className="gkp-projects__project-title">Shimmer on Page Load</h2>
+          <div className="gkp-projects__project-container">
+            <div className="gkp-projects__project-text">
               <p>
                 This uses a shimmer NPM to display a beautiful placeholder that
                 displays a shiny shell of the card shape until the page loads,
@@ -146,23 +149,25 @@ const Projects = () => {
                 blank on refresh until a grid of cards loaded.
               </p>
             </div>
-            <img
-              className="gkp-projects--social-links-tab-gif"
-              src="../assets/gifs/company-card-shimmer-gif.gif"
-              alt="firstImage"
-            ></img>
+            <div className="gkp-projects__gif-container">
+              <img
+                src="../assets/gifs/company-card-shimmer-gif.gif"
+                alt="firstImage"
+              ></img>
+            </div>
           </div>
 
-          <h2 className="sk-home__who-do-i-help-title">
+          <h2 className="gkp-projects__project-title">
             Composer Editor Dropdown Menu
           </h2>
-          <div className="sk-home__who-do-i-help-container">
-            <img
-              className="sk-home__who-do-i-help-container-image"
-              src="../assets/gifs/composer-editor-dropdown-gif.gif"
-              alt="secondImage"
-            ></img>
-            <div className="sk-home__who-do-i-help-container__text">
+          <div className="gkp-projects__project-container">
+            <div className="gkp-projects__gif-container">
+              <img
+                src="../assets/gifs/composer-editor-dropdown-gif.gif"
+                alt="secondImage"
+              ></img>
+            </div>
+            <div className="gkp-projects__project-text">
               <p>
                 This is a dropdown menu on Paperstreet's status update editor
                 that gives the user options for the next update they are going
@@ -173,11 +178,11 @@ const Projects = () => {
             </div>
           </div>
 
-          <h2 className="sk-home__general-info-title">
+          <h2 className="gkp-projects__project-title">
             Display All Classes a Company Belongs To
           </h2>
-          <div className="sk-home__general-info-container">
-            <div className="sk-home__general-info-container__text">
+          <div className="gkp-projects__project-container">
+            <div className="col gkp-projects__project-text">
               <p>
                 This card displays all of the different classes that a given
                 company belongs to on the sidebar of their profile page.
@@ -186,13 +191,14 @@ const Projects = () => {
                 displayed on the card.
               </p>
             </div>
-            <img
-              className="gkp-projects--social-links-tab-gif"
-              src="../assets/gifs/display-classes-on-card-gif.gif"
-              alt="firstImage"
-            ></img>
+            <div className="gkp-projects__gif-container">
+              <img
+                src="../assets/gifs/display-classes-on-card-gif.gif"
+                alt="firstImage"
+              ></img>
+            </div>
           </div>
-        </section>
+        </div>
       </div>
     </div>
   );
