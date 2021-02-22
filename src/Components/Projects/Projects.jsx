@@ -1,10 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import "./style.scss";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+import ProjectCardWithGif from "../ProjectCardWithGif";
 
 const Projects = () => {
   return (
@@ -59,9 +56,8 @@ const Projects = () => {
                   : Application that allows users to search for Github profiles
                   name, username or keyword and view basic Github profile info,
                   see their featured repos or follow a link to visit their
-                  Github page. It uses React Hooks to manage state, the Context
-                  API and the Github API to display JSON data in an a simple,
-                  user-friendly manner
+                  Github page. Uses React hooks, React Context API and Github
+                  API.
                 </p>
               </li>
               <li>
@@ -76,11 +72,10 @@ const Projects = () => {
                   early-stage startup software development team. I implement
                   small to medium-sized experiences that are featured on
                   Paperstreet's production-level web application, servicing
-                  thousands of users and hundreds of companies - and those
-                  numbers grow daily. I primarily work with the front end but am
-                  able to work in the back end as needed to implement or utilize
-                  APIs for rich, front end functionality. Below are some of the
-                  features I have been charged with completing.
+                  thousands of users and hundreds of companies. I primarily work
+                  with the front end but am able to work in the back end as
+                  needed to implement or utilize APIs for rich, front end
+                  functionality. Below are a few features I have completed.
                 </p>
               </li>
             </ul>
@@ -93,14 +88,15 @@ const Projects = () => {
           <div className="gkp-projects__project-container">
             <div className="gkp-projects__project-text">
               <p>
-                This social link tab lets the user input links to their social
-                media channels. I was in charge of the frontend, using React,
-                Bootstrap, SVG logos and RegEx to validate whether or not the
-                social link was a valid URL. Handlebars is used to conditionally
-                render the social media SVGs on a card on the user's profile
-                page; only social media channels listed in their user settings
-                will display here. If no social media has been input, the card
-                will disappear.
+                We wanted a way for new connections to be able to easily link to
+                users' social media channels. This is a social media input on
+                user profile settings. I was in charge of the frontend, using
+                React, Bootstrap, SVG logos and RegEx to validate whether or not
+                the social link was a valid URL. Handlebars is used to
+                conditionally render the social media SVGs on a card on the
+                user's profile page; only social media channels listed in their
+                user settings will display here. If no social media has been
+                input, the card will disappear.
               </p>
             </div>
             <div className="gkp-projects__gif-container">
