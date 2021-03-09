@@ -153,7 +153,7 @@ const Projects = () => {
           <div className="gkp-projects__project-container">
             <div className="gkp-projects__gif-container">
               <img
-                src="../assets/gifs/composer-editor-dropdown-gif.gif"
+                src="../assets/gifs/export-contacts-to-csv.gif"
                 alt="secondImage"
               ></img>
             </div>
