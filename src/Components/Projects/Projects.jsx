@@ -88,15 +88,13 @@ const Projects = () => {
           <div className="gkp-projects__project-container">
             <div className="gkp-projects__project-text">
               <p>
-                We wanted a way for new connections to be able to easily link to
-                users' social media channels. This is a social media input on
-                user profile settings. I was in charge of the frontend, using
-                React, Bootstrap, SVG logos and RegEx to validate whether or not
-                the social link was a valid URL. Handlebars is used to
-                conditionally render the social media SVGs on a card on the
-                user's profile page; only social media channels listed in their
-                user settings will display here. If no social media has been
-                input, the card will disappear.
+                In the user's profile settings, the user can enter their
+                different social media channels. Each social media channel
+                entered is then conditionally displayed in a styled div on their
+                profile page. Those viewing the user's profile page can then
+                link out to the given social media channel to connect elsewhere.
+                If no social media channels are entered, the div hides from the
+                user's profile. Uses React, SCSS and Handlebars.
               </p>
             </div>
             <div className="gkp-projects__gif-container">
@@ -125,11 +123,9 @@ const Projects = () => {
             </div>
             <div className="gkp-projects__project-text">
               <p>
-                This modal controls who is able to see a given post when a user
-                wants to post an update to their profile page. It uses props to
-                open the modal, multiple instances of embedded useState Hooks to
-                conditionally render the difference in options, and the
-                useEffect Hook to send only to certain email contacts.
+                A modal similar to Facebook's post visibility options that
+                allows the user to control who is able to view their published
+                posts. Uses React, SCSS and REST API via Node and Express.
               </p>
             </div>
           </div>
@@ -138,11 +134,9 @@ const Projects = () => {
           <div className="gkp-projects__project-container">
             <div className="gkp-projects__project-text">
               <p>
-                This uses a shimmer NPM to display a beautiful placeholder that
-                displays a shiny shell of the card shape until the page loads,
-                which involved creating a shimmer component for this card and a
-                lot of CSS. Before this feature was completed, the page stayed
-                blank on refresh until a grid of cards loaded.
+                Improved user's experience by implementing a shimmer effect that
+                renders while page is loading. Uses React, SCSS and NPM
+                react-shimmer.
               </p>
             </div>
             <div className="gkp-projects__gif-container">
@@ -154,7 +148,7 @@ const Projects = () => {
           </div>
 
           <h2 className="gkp-projects__project-title">
-            Composer Editor Dropdown Menu
+            Export Contact Group to CSV
           </h2>
           <div className="gkp-projects__project-container">
             <div className="gkp-projects__gif-container">
@@ -165,33 +159,12 @@ const Projects = () => {
             </div>
             <div className="gkp-projects__project-text">
               <p>
-                This is a dropdown menu on Paperstreet's status update editor
-                that gives the user options for the next update they are going
-                to write. For this feature, I took a dropdown that was
-                previously built using Handlebars and transcribed it into a
-                functional React component from scratch.
+                A CSV export component with corresponding API endpoint that
+                allows a given user to export a list of contacts to a CSV,
+                handled on the back end to send to their account's email
+                address. Uses React and SCSS on the front end, and uses the
+                Sendgrid API via Node/ Express on the back end to handle email.
               </p>
-            </div>
-          </div>
-
-          <h2 className="gkp-projects__project-title">
-            Display All Classes a Company Belongs To
-          </h2>
-          <div className="gkp-projects__project-container">
-            <div className="col gkp-projects__project-text">
-              <p>
-                This card displays all of the different classes that a given
-                company belongs to on the sidebar of their profile page.
-                Initially, it only displayed the first class listed in the
-                company's array. I used Handlebars to ensure that each class is
-                displayed on the card.
-              </p>
-            </div>
-            <div className="gkp-projects__gif-container">
-              <img
-                src="../assets/gifs/display-classes-on-card-gif.gif"
-                alt="firstImage"
-              ></img>
             </div>
           </div>
         </div>
