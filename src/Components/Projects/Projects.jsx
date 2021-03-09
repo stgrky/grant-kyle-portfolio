@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "../Header";
 import "./style.scss";
-import ProjectCardWithGif from "../ProjectCardWithGif";
 
 const Projects = () => {
   return (
@@ -94,7 +92,9 @@ const Projects = () => {
                 profile page. Those viewing the user's profile page can then
                 link out to the given social media channel to connect elsewhere.
                 If no social media channels are entered, the div hides from the
-                user's profile. Uses React, SCSS and Handlebars.
+                user's profile. Uses React, SCSS and Handlebars. The first gif
+                is what the viewer sees on a user's profile page; the second gif
+                is what the user inputs in their settings.
               </p>
             </div>
             <div className="gkp-projects__gif-container">
@@ -115,12 +115,12 @@ const Projects = () => {
             Visibility Options Modal
           </h2>
           <div className="gkp-projects__project-container">
-            <div className="gkp-projects__gif-container">
-              <img
-                src="../assets/gifs/post-visibility-options-modal-gif.gif"
-                alt="secondImage"
-              ></img>
-            </div>
+            <img
+              className="gkp-projects__gif-container"
+              src="../assets/gifs/post-visibility-options-modal-gif.gif"
+              alt="secondImage"
+            ></img>
+
             <div className="gkp-projects__project-text">
               <p>
                 A modal similar to Facebook's post visibility options that
@@ -139,24 +139,24 @@ const Projects = () => {
                 react-shimmer.
               </p>
             </div>
-            <div className="gkp-projects__gif-container">
-              <img
-                src="../assets/gifs/company-card-shimmer-gif.gif"
-                alt="firstImage"
-              ></img>
-            </div>
+
+            <img
+              className="gkp-projects__gif-container"
+              src="../assets/gifs/company-card-shimmer-gif.gif"
+              alt="firstImage"
+            ></img>
           </div>
 
           <h2 className="gkp-projects__project-title">
             Export Contact Group to CSV
           </h2>
           <div className="gkp-projects__project-container">
-            <div className="gkp-projects__gif-container">
-              <img
-                src="../assets/gifs/export-contacts-to-csv.gif"
-                alt="secondImage"
-              ></img>
-            </div>
+            <img
+              className="gkp-projects__gif-container"
+              src="../assets/gifs/export-contacts-to-csv.gif"
+              alt="secondImage"
+            ></img>
+
             <div className="gkp-projects__project-text">
               <p>
                 A CSV export component with corresponding API endpoint that
