@@ -62,6 +62,36 @@ const Projects = () => {
                 <p>
                   <a
                     className="gkp-projects__content-container-link"
+                    href="https://fast-chamber-93165.herokuapp.com/"
+                  >
+                    Train Fare Calculator
+                  </a>
+                  : Not really a "calculator", it is parsing through data in a
+                  local JSON file and using React Hooks to take the user to the
+                  appropriate ticket and multiplying it by the amount of tickets
+                  they want to get their fare total. Its simple user-interface
+                  and its sound logic makes it a presentable application.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    className="gkp-projects__content-container-link"
+                    href="https://cryptic-wave-55237.herokuapp.com/"
+                  >
+                    Mock Landing Page
+                  </a>
+                  : This is a mock landing page for a web application, built
+                  with React and deployed to Heroku. I chose to display it here
+                  because of its mobile-friendliness: it looks great on desktop,
+                  and is responsive on screens the size of iPhone 5 all the way
+                  to iPad Pro.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    className="gkp-projects__content-container-link"
                     href="https://paperstreet.vc/"
                   >
                     Junior Developer at Paperstreet.vc
