@@ -94,16 +94,17 @@ const Projects = () => {
                     className="gkp-projects__content-container-link"
                     href="https://paperstreet.vc/"
                   >
-                    Junior Developer at Paperstreet.vc
+                    Software Developer at Paperstreet.vc
                   </a>
-                  : I am a full stack developer on a small, highly-agile
-                  early-stage startup software development team. I implement
-                  small to medium-sized experiences that are featured on
-                  Paperstreet's production-level web application, servicing
-                  thousands of users and hundreds of companies. I primarily work
-                  with the front end but am able to work in the back end as
-                  needed to implement or utilize APIs for rich, front end
-                  functionality. Below are a few features I have completed.
+                  : I recently completed a one-year contract as a full stack
+                  developer on a small, highly-agile early-stage startup
+                  software development team. I implement small to medium-sized
+                  experiences that are featured on Paperstreet's
+                  production-level web application, servicing thousands of users
+                  and hundreds of companies. I primarily worked on the front end
+                  but am able to work in the back end as needed to implement or
+                  utilize APIs for rich, front end functionality. Below are a
+                  few features I have completed.
                 </p>
               </li>
             </ul>
