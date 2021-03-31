@@ -16,7 +16,7 @@ const About = (props) => {
       </div>
       <div id="gkp-home__title-section">
         <h2 className="gkp-home__title">
-          software developer; lifelong learner
+          software developer; web developer; digital marketer; lifelong learner
         </h2>
       </div>
       <div id="gkp-home__social-section" className="text-center social">
