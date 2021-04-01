@@ -72,7 +72,12 @@ const Projects = () => {
                   they want to get their fare total. Its simple user-interface
                   and sound logic makes it a presentable application. I got a
                   lot of useEffect practice with this application. Built with
-                  React, deployed to Heroku.
+                  React, deployed to Heroku.{" "}
+                  <b>
+                    *** Please note that this project is deployed to Heroku, and
+                    may load very slowly. Please refresh and try again if it
+                    times out ***
+                  </b>
                 </p>
               </li>
               <li>
@@ -87,7 +92,12 @@ const Projects = () => {
                   display it here because of its mobile-friendliness: it looks
                   great on desktop, and is responsive on screens the size of
                   iPhone 5 all the way to iPad Pro. Built with React and SCSS,
-                  deployed to Heroku.
+                  deployed to Heroku.{" "}
+                  <b>
+                    *** Please note that this project is deployed to Heroku, and
+                    may load very slowly. Please refresh and try again if it
+                    times out ***
+                  </b>
                 </p>
               </li>
               <li>
