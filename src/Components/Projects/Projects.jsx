@@ -54,8 +54,8 @@ const Projects = () => {
                   : Application that allows users to search for Github profiles
                   name, username or keyword and view basic Github profile info,
                   see their featured repos or follow a link to visit their
-                  Github page. Uses React hooks, React Context API and Github
-                  API.
+                  Github page. Built with React, React's Context API, and
+                  Github's API, deployed to Netlify.
                 </p>
               </li>
               <li>
@@ -70,7 +70,9 @@ const Projects = () => {
                   local JSON file and using React Hooks to take the user to the
                   appropriate ticket and multiplying it by the amount of tickets
                   they want to get their fare total. Its simple user-interface
-                  and its sound logic makes it a presentable application.
+                  and sound logic makes it a presentable application. I got a
+                  lot of useEffect practice with this application. Built with
+                  React, deployed to Heroku.
                 </p>
               </li>
               <li>
@@ -81,11 +83,31 @@ const Projects = () => {
                   >
                     Mock Landing Page
                   </a>
-                  : This is a mock landing page for a web application, built
-                  with React and deployed to Heroku. I chose to display it here
-                  because of its mobile-friendliness: it looks great on desktop,
-                  and is responsive on screens the size of iPhone 5 all the way
-                  to iPad Pro.
+                  : This is a mock landing page for a fake business. I chose to
+                  display it here because of its mobile-friendliness: it looks
+                  great on desktop, and is responsive on screens the size of
+                  iPhone 5 all the way to iPad Pro. Built with React and SCSS,
+                  deployed to Heroku.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    className="gkp-projects__content-container-link"
+                    href="http://rate-a-customer.club/"
+                  >
+                    Mock University Landing Page (Wordpress)
+                  </a>
+                  : Though I am trained in the Javascript ecosystem, I have to
+                  say: Wordpress has turned out to be a blast to learn! It is
+                  highly customizable and relatively easy to learn and use.
+                  Coming from digital marketing, it is great to finally learn
+                  how to create custom themes in Wordpress instead of just
+                  implementing new content and conversion strategies. I started
+                  this project as a fictional university, but am slowly changing
+                  the site to be a site for service industry profesionals to
+                  rate customers they serve (like a reverse Yelp). Built with
+                  PHP, CSS and HTML, hosted on Wordpress through Gatorhost.
                 </p>
               </li>
               <li>
