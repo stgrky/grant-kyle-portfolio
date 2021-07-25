@@ -135,8 +135,21 @@ const Projects = () => {
                   production-level web application, servicing thousands of users
                   and hundreds of companies. I primarily worked on the front end
                   but am able to work in the back end as needed to implement or
-                  utilize APIs for rich, front end functionality. Below are a
-                  few features I have completed.
+                  utilize APIs for rich, front end functionality.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a
+                    className="gkp-projects__content-container-link"
+                    href="https://luxuryrehabs.com/"
+                  >
+                    Web Developer at RehabPath
+                  </a>
+                  : I currently work for a smaller, driven company that helps
+                  its users find their ideal treatment solution. I mostly live
+                  in the frontend world to assist with optimize the user's
+                  experience and journey.
                 </p>
               </li>
             </ul>
