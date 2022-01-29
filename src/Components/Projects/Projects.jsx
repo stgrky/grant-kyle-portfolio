@@ -80,7 +80,7 @@ const Projects = () => {
               API. Candidly, if I had one proud project on this portfolio, it's
               this one; check it out!
               <br />
-              <b>
+              <b style={{fontWeight: 800}}>
                 *** Please note that this project is deployed for free with
                 Heroku, and may load very slowly. Please refresh and try again
                 if it times out ***
@@ -119,7 +119,7 @@ const Projects = () => {
               their fare total. Its simple user-interface and sound logic makes
               it a presentable application. Built with React, deployed to
               Heroku. <br />
-              <b>
+              <b style={{fontWeight: 800}}>
                 *** Please note that this project is deployed for free with
                 Heroku, and may load very slowly. Please refresh and try again
                 if it times out ***
@@ -141,14 +141,14 @@ const Projects = () => {
               desktop, and is responsive on screens the size of iPhone 5 all the
               way to iPad Pro. Built with React and SCSS, deployed to Heroku.{" "}
               <br />
-              <b>
+              <b style={{fontWeight: 800}}>
                 *** Please note that this project is deployed for free with
                 Heroku, and may load very slowly. Please refresh and try again
                 if it times out ***
               </b>
             </p>
           </li>
-          <li>
+          {/* <li>
             <p>
               <a
                 className="gkp-projects__content-container-link"
@@ -169,7 +169,7 @@ const Projects = () => {
               (like a reverse Yelp). Built with PHP, CSS and HTML, hosted on
               Wordpress through Gatorhost.
             </p>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

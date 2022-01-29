@@ -19,6 +19,9 @@ const Header = (props) => {
           <div className="gkp-header__menu-items gkp-header--projects">
             <Nav.Link href="/about">About</Nav.Link>
           </div>
+          {/* <div className="gkp-header__menu-items gkp-header--projects">
+            <Nav.Link href="/freelance">Freelance</Nav.Link>
+          </div> */}
         </Nav>
       </Navbar.Collapse>
       <Navbar.Brand href="#home">
