@@ -16,7 +16,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                React Web Developer at RehabPath
+                Marketing Software Developer at RehabPath
               </a>
               : I currently love my role working on a smaller but growing,
               mission-driven team on their{" "}
@@ -27,11 +27,7 @@ const Projects = () => {
               >
                 LuxuryRehabs
               </a>{" "}
-              website. My primary function is to act as an intermediary between
-              our marketing and development team; essentially I carry out
-              development tasks that facilitate our marketing success. Daily, I
-              work with React, a headless Gatsby.js CMS, graphQL and a blog
-              hosted through Wordpress.
+              website. I carry out front end development tasks that directly impact our digital marketing efforts. Daily, I work with React, a headless Gatsby CMS interfaced through Wordpress, and GraphQL. 
             </p>
           </li>
           <li>
