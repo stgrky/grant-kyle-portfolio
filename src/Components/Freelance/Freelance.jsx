@@ -18,7 +18,7 @@ const Projects = () => {
               >
                 Marketing Software Developer at RehabPath
               </a>
-              : I currently love my role working on a smaller but growing,
+              : I love my current role working on a growing, Series A funded,
               mission-driven team on their{" "}
               <a
                 rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const Projects = () => {
               >
                 LuxuryRehabs
               </a>{" "}
-              website. I carry out front end development tasks that directly impact our digital marketing efforts. Daily, I work with React, a headless Gatsby CMS interfaced through Wordpress, and GraphQL. 
+              website. I carry out front end development tasks that directly impact our digital marketing efforts. Daily, I work with Gatsby, React, a headless Wordpress instance, and GraphQL. 
             </p>
           </li>
           <li>
@@ -37,9 +37,7 @@ const Projects = () => {
               software development team. I implemented small to medium-sized
               experiences that are featured on Paperstreet's production-level
               web application, servicing thousands of users and hundreds of
-              companies. I primarily worked on the front end but worked on the
-              back end as needed to implement or utilize APIs for rich, front
-              end functionality.
+              companies.
             </p>
           </li>
         </ul>
