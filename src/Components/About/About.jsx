@@ -16,8 +16,10 @@ const About = (props) => {
       </div>
       <div id="gkp-home__title-section">
         <h2 className="gkp-home__title">
-          software developer; web developer; digital marketer; lifelong learner
+          developer; human; lifelong learner
         </h2>
+        <hr />
+        <p>Questions about my professional merits or what I like to do outside of my professional life? There's a lot. If you're a recruiter, potential employer, or pro bono therapist, kindly contact me through any link below.</p>
       </div>
       <div id="gkp-home__social-section" className="text-center social">
         <a
