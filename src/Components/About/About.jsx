@@ -19,7 +19,7 @@ const About = (props) => {
           developer; human; lifelong learner
         </h2>
         <hr />
-        <p>Questions about my professional merits or what I like to do outside of my professional life? There's a lot. If you're a recruiter, potential employer, or pro bono therapist, kindly contact me through any link below.</p>
+        <p>Questions about my professional merits or  what I like to do outside of my professional life? There's a lot. If you are reading this for a work-for-money barter or related parlay, or you are a pro bono therapist, kindly contact me through any link below.</p>
       </div>
       <div id="gkp-home__social-section" className="text-center social">
         <a
