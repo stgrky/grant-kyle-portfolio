@@ -15,7 +15,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                React Web Developer at RehabPath
+                Marketing Software Developer at RehabPath
               </a>
               : I currently love my role working on a smaller but growing,
               mission-driven team on their{" "}
@@ -26,11 +26,11 @@ const Projects = () => {
               >
                 LuxuryRehabs
               </a>{" "}
-              website. My primary function is to act as an intermediary between
-              our marketing and development team; essentially I carry out
-              development tasks that facilitate our marketing success. Daily, I
-              work with React, a headless Gatsby.js CMS, graphQL and a blog
-              hosted through Wordpress.
+              website. Primarily, I work as an intermediary between our
+              marketing and development team, completing projects that
+              facilitate our online visibility. Daily I work with React, a
+              headless Gatsby.js instance interfaced through Wordpress, and
+              GraphQL.
             </p>
           </li>
           <li>
@@ -43,14 +43,14 @@ const Projects = () => {
               >
                 Software Developer at Paperstreet.vc
               </a>
-              : Before RehabPath, I completed a one-year contract as a full
-              stack developer on a small, highly-agile early-stage startup
-              software development team. I implemented small to medium-sized
-              experiences that are featured on Paperstreet's production-level
-              web application, servicing thousands of users and hundreds of
-              companies. I primarily worked on the front end but worked on the
-              back end as needed to implement or utilize APIs for rich, front
-              end functionality.
+              : I started as an intern with Paperstreet and was then taken on as
+              a Junior Software Developer for a one-year contract on this small,
+              highly-agile early-stage startup software development team. I
+              implemented small to medium-sized experiences that are featured on
+              Paperstreet's production-level web application, servicing
+              thousands of users and hundreds of companies. I primarily worked
+              on the front end but worked on the back end as needed to implement
+              or utilize APIs for rich, front end functionality.
             </p>
           </li>
         </ul>
@@ -80,7 +80,7 @@ const Projects = () => {
               API. Candidly, if I had one proud project on this portfolio, it's
               this one; check it out!
               <br />
-              <b style={{fontWeight: 800}}>
+              <b style={{ fontWeight: 800 }}>
                 *** Please note that this project is deployed for free with
                 Heroku, and may load very slowly. Please refresh and try again
                 if it times out ***
@@ -119,7 +119,7 @@ const Projects = () => {
               their fare total. Its simple user-interface and sound logic makes
               it a presentable application. Built with React, deployed to
               Heroku. <br />
-              <b style={{fontWeight: 800}}>
+              <b style={{ fontWeight: 800 }}>
                 *** Please note that this project is deployed for free with
                 Heroku, and may load very slowly. Please refresh and try again
                 if it times out ***
@@ -141,7 +141,7 @@ const Projects = () => {
               desktop, and is responsive on screens the size of iPhone 5 all the
               way to iPad Pro. Built with React and SCSS, deployed to Heroku.{" "}
               <br />
-              <b style={{fontWeight: 800}}>
+              <b style={{ fontWeight: 800 }}>
                 *** Please note that this project is deployed for free with
                 Heroku, and may load very slowly. Please refresh and try again
                 if it times out ***
