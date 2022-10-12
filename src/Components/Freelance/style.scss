@@ -3,69 +3,68 @@
 // }
 
 .gkp-projects__title {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 48px;
-    font-weight: 500;
-    color: #444;
-  }
-  .gkp-projects__sub-title {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    color: #444;
-  }
-  
-  .gkp-projects__title-container {
-    margin: 0 50px;
-  }
-  
-  .gkp-projects__projects-container {
-    max-width: 100%;
-    text-align: left;
-  
-    padding: 0 50px 0 50px;
-  }
-  
-  .gkp-projects__content-container {
-    width: 80%;
-    font-size: 22px;
-    font-weight: 300;
-    color: #526d7a;
-  }
-  
-  .gkp-projects__content-container-link {
-    color: #526d7a;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  
-  .gkp-projects__content-container-link:visited {
-    text-decoration: none;
-  }
-  
-  .gkp-projects__project-container {
-    // border: none;
-    // padding: 20px 40px 40px;
-    // width: 100%;
-    display: flex;
-  }
-  
-  .gkp-projects__gif-container {
-    width: 40%;
-    margin: 20px 30px 0 50px;
-  }
-  
-  .gkp-projects__project-title {
-    text-align: center;
-  }
-  
-  .gkp-projects__project-container {
-    border: none;
-    padding: 20px 40px 40px;
-    width: 100%;
-  }
-  
-  .gkp-projects__project-text {
-    width: 30%;
-  }
-  
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #444;
+}
+.gkp-projects__sub-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #444;
+}
+
+.gkp-projects__title-container {
+  margin: 0 50px;
+}
+
+.gkp-projects__projects-container {
+  max-width: 100%;
+  text-align: left;
+
+  padding: 0 50px 0 50px;
+}
+
+.gkp-projects__content-container {
+  width: 80%;
+  font-size: 22px;
+  font-weight: 300;
+  color: #526d7a;
+}
+
+.gkp-projects__content-container-link {
+  color: #526d7a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.gkp-projects__content-container-link:visited {
+  text-decoration: none;
+}
+
+.gkp-projects__project-container {
+  // border: none;
+  // padding: 20px 40px 40px;
+  // width: 100%;
+  display: flex;
+}
+
+.gkp-projects__gif-container {
+  width: 40%;
+  margin: 20px 30px 0 50px;
+}
+
+.gkp-projects__project-title {
+  text-align: center;
+}
+
+.gkp-projects__project-container {
+  border: none;
+  padding: 20px 40px 40px;
+  width: 100%;
+}
+
+.gkp-projects__project-text {
+  width: 30%;
+}

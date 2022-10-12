@@ -4,7 +4,7 @@ import "./style.scss";
 const Projects = () => {
   return (
     <div className="gkp-projects__projects-container">
-      <h1 className="gkp-projects__title">Grant Kyle's Employment History</h1>
+      <h1 className="gkp-projects__title">Employment History</h1>
       <div className="gkp-projects__content-container">
         <ul>
           <li>
@@ -17,20 +17,21 @@ const Projects = () => {
               >
                 Marketing Software Developer at RehabPath
               </a>
-              : I currently love my role working on a smaller but growing,
-              mission-driven team on their{" "}
+              : I currently work for what I subjectively deem the coolest
+              company I have ever had the fortune of working for, RehabPath, on
+              their{" "}
               <a
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://luxuryrehabs.com/"
               >
-                LuxuryRehabs
+                Luxury
               </a>{" "}
-              website. Primarily, I work as an intermediary between our
-              marketing and development team, completing projects that
-              facilitate our online visibility. Daily I work with React, a
-              headless Gatsby.js instance interfaced through Wordpress, and
-              GraphQL.
+              website. My primary interest is working on projects that
+              facilitate realizing our revenue target. But! The company is not
+              just about money; we truly care about getting treatment seekers
+              the help they need. Daily I work with React, a headless Gatsby.js
+              instance interfaced through Wordpress, and GraphQL.
             </p>
           </li>
           <li>
@@ -41,25 +42,33 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Software Developer at Paperstreet.vc
+                Junior Software Developer at Paperstreet.vc
               </a>
               : I started as an intern with Paperstreet and was then taken on as
-              a Junior Software Developer for a one-year contract on this small,
-              highly-agile early-stage startup software development team. I
-              implemented small to medium-sized experiences that are featured on
-              Paperstreet's production-level web application, servicing
-              thousands of users and hundreds of companies. I primarily worked
-              on the front end but worked on the back end as needed to implement
-              or utilize APIs for rich, front end functionality.
+              a junior for a one-year contract. I implemented small to
+              medium-sized experiences that are featured on their
+              production-level web application, servicing thousands of users and
+              hundreds of companies.
             </p>
           </li>
         </ul>
       </div>
       <h1 className="gkp-projects__title">Projects</h1>
-      <h2 className="gkp-projects__sub-title">
-        In order of my best to my okay-est
-      </h2>
-      <div className="gkp-projects__content-container">
+      <p className="gkp-projects__sub-title">
+        If you want to see something cool, visit{" "}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://luxuryrehabs.com/blog/"
+        >
+          RehabPath Luxury's blog
+        </a>{" "}
+        and click on any post; I have done all of the work to give it a face
+        lift from what it previously was. Coming soon in my personal-code
+        pipeline is a blog to detail what my life is like living in Guadalajara,
+        and whatever other ramblings I want to detail.
+      </p>
+      {/* <div className="gkp-projects__content-container">
         <ul>
           <li>
             <p>
@@ -71,14 +80,14 @@ const Projects = () => {
               >
                 Cryptocurrency Loan Calculator
               </a>
-              : Application that lets its user put in a loan amount, the
-              loan-term, the loan-to-value (LTV) ratio, and to choose between
-              interest only payments or principal + interest payments. It then
-              displays the info in another panel and uses a crypto API from Coin
-              Gecko to get live data on the value of the loan in different
-              cryptocurrencies. Built strictly with React, SCSS and a CoinGecko
-              API. Candidly, if I had one proud project on this portfolio, it's
-              this one; check it out!
+              : Application that lets user put in a loan amount, the loan-term,
+              the loan-to-value (LTV) ratio, and to choose between interest only
+              payments or principal + interest payments. It then displays the
+              info in another panel and uses a crypto API from Coin Gecko to get
+              live data on the value of the loan in different cryptocurrencies.
+              I built this with React and SCSS, and it connects with a
+              cryptocurrency-tracking API through CoinGecko. Candidly, this is
+              my favorite , it's this one; check it out!
               <br />
               <b style={{ fontWeight: 800 }}>
                 *** Please note that this project is deployed for free with
@@ -148,30 +157,8 @@ const Projects = () => {
               </b>
             </p>
           </li>
-          {/* <li>
-            <p>
-              <a
-                className="gkp-projects__content-container-link"
-                href="http://rate-a-customer.club/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Mock University Landing Page (Wordpress)
-              </a>
-              : Though I am trained in the Javascript ecosystem, I have to say:
-              Wordpress has turned out to be a blast to learn! It is highly
-              customizable and relatively easy to learn and use. Coming from
-              digital marketing, it is great to finally learn how to create
-              custom themes in Wordpress instead of just implementing new
-              content and conversion strategies. I started this project as a
-              fictional university, but am slowly changing the site to be a site
-              for service industry profesionals to rate customers they serve
-              (like a reverse Yelp). Built with PHP, CSS and HTML, hosted on
-              Wordpress through Gatorhost.
-            </p>
-          </li> */}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };
