@@ -15,11 +15,9 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Marketing Software Developer at RehabPath
+                Software Developer at RehabPath
               </a>
-              : I currently work for what I subjectively deem the coolest
-              company I have ever had the fortune of working for, RehabPath, on
-              their{" "}
+              : The best company I have ever had the opportunity to work for at this point
               <a
                 rel="noopener noreferrer"
                 target="_blank"
